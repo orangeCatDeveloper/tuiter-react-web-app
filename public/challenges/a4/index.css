@@ -1,0 +1,119 @@
+.wd-list-img {
+    max-height: 80px;
+}
+
+.wd-avatar-size {
+    width: 43px;
+    height: 43px;
+}
+
+.list-group-item.wd-active {
+    background-color: inherit;
+    color: #000;
+    font-weight: bolder;
+}
+.list-group-item.wd-non-active {
+    color: #444;
+}
+
+.list-group-item.wd-no-border {
+    border: 0;
+}
+
+.nav.wd-no-border {
+    border: 0;
+}
+
+.wd-barr {
+    text-decoration: none;
+    color: #00acee;
+}
+
+.nav-link.wd-active {
+    color: #333;
+    font-weight: bold;
+}
+.nav-item.wd-non-active {
+    color: grey;
+}
+.wd-nav-item-border {
+    border-bottom: 3px solid rgb(29, 161, 242);
+    padding-bottom: 10px;
+}
+
+.form-control.wd-search-bar{
+    border: 0;
+    background-color: #EFF3F4;
+}
+.form-control.wd-search-bar::placeholder {
+    font-size: 15px;
+}
+
+.list-group-item.wd-follow-list-item {
+    background-color: #F7F9F9;
+}
+
+.wd-tuit-grey-text {
+    font-size: 13px;
+}
+
+.wd-tuit-black-text {
+    font-size: 15px;
+}
+
+.rounded-top-15 {
+    border-top-left-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+}
+
+.rounded-bottom-15 {
+    border-bottom-left-radius: 15px!important;
+    border-bottom-right-radius: 15px!important;
+}
+
+.wd-follow-check-blue {
+    color: #00acee;
+}
+
+.wd-follow-check-gold {
+    color: gold;
+}
+
+.wd-search-icon {
+    color: darkgrey;
+}
+
+.wd-follow-text-area {
+    font-size: 12px;
+}
+
+.list-group-item.wd-first-tuit-border{
+    border-top: 2px solid ghostwhite;
+}
+
+.wd-show-more {
+    text-decoration: none;
+    color: #00acee;
+    font-size: 15px;
+}
+
+
+.wd-center-area {
+    border-left: 2px solid ghostwhite;
+    border-right: 2px solid ghostwhite;
+    border-top: 0;
+    border-bottom: 0;
+    padding: 0;
+}
+
+.btn-primary.wd-tuit-btn {
+    background-color: #00acee;
+    border: 0;
+    font-size: 15px;
+}
+
+.btn-primary.wd-follow-btn {
+    background-color: black;
+    color: white;
+    border: 0;
+}
