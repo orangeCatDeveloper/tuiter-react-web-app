@@ -14,3 +14,41 @@
 .wd-red {
     color: red;
 }
+
+.wd-tuit-item {
+    border-bottom: 1px solid rgb(47, 51, 54);
+    padding: 8px 16px;
+    display: flex;
+}
+
+.wd-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0;
+}
+.wd-tweet-content {
+    display: inline-block;
+    margin-left: 12px;
+    margin-bottom: 0;
+    padding: 0;
+    max-width: 550px;
+}
+
+.wd-tuit-content {
+    vertical-align: top;
+    margin-bottom: 12px;
+    max-width: 550px;
+    font-size: 15px;
+}
+
+.wd-tuit-content-name {
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.wd-non-text-decoration {
+    text-decoration: none;
+}
