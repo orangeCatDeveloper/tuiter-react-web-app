@@ -1,0 +1,17 @@
+.wd-profile-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wd-profile-banner {
+    width: 100%;
+    height: 250px;
+}
+
+.wd-profile-avatar {
+    width: 120px;
+    height: 120px;
+    bottom: -60px;
+    left: 20px;
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "_id": 123,
+    "name": "Jose Annunziato",
+    "handle": "@jannunzi",
+    "profilePicture": "../../images/reactjs-logo.png",
+    "bannerPicture": "../../images/tennis.jpeg",
+    "bio": "Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.",
+    "website": "youtube.com/webdevtv",
+    "location": "Boston, MA",
+    "birthday": "1968-07-07",
+    "dateJoined": "2009-04",
+    "followingCount": 340,
+    "followersCount": 223
+  }
+]

@@ -9,6 +9,14 @@ tuit-item-border {
     border: rgb(47, 51, 54);
 }
 
+.wd-red {
+    color: red;
+}
+
+.wd-black {
+    color: black;
+}
+
 .wd-avatar {
     width: 48px;
     height: 48px;
