@@ -1,11 +1,11 @@
 import './tuitItem.css'
 import TuitStats from "./TuitStats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 const TuitItem = ({tuit}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return (
         <li className="list-group-item tuit-item-border">
@@ -20,7 +20,7 @@ const TuitItem = ({tuit}) => {
                         <div
                             className="wd-tuit-content-name wd-light-gray d-flex justify-content-between">
                             <div>
-                                <span className="fw-bold wd-black">{tuit.userName} </span>
+                                <span className="fw-bold wd-black">{tuit.username} </span>
                                 <i className="bi bi-patch-check-fill text-primary"></i> {tuit.handle} • {tuit.time}
                             </div>
                         </div>
