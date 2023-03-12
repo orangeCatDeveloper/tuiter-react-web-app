@@ -13,6 +13,7 @@ const WhatsHappening = () => {
             handle: "@nasa",
             time: "1min",
             username: "nasa",
+            topic: "NASA",
             title: "NASA",
             liked: false,
             likes: 0,
