@@ -3,6 +3,7 @@ const API_BASE = process.env.REACT_APP_BASE_URL;
 const TUITS_API = `${API_BASE}/tuits`;
 export const createTuit = async (tuit) => {
     const response = await axios.post(TUITS_API, tuit)
+    console.log(response);
     return response.data;
 }
 
