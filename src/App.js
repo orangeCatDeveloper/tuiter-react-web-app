@@ -2,7 +2,7 @@ import Labs from "./labs";
 import HelloWorld from "./labs/a6/hello-world";
 import Tuiter from "./tuiter/index";
 import {BrowserRouter} from "react-router-dom";
-import {Routes, Route} from "react-router";
+import {Routes, Route, Navigate} from "react-router";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <div className="container">
             <Routes>
                 <Route path="/*"
-                       element={<Labs/>}/>
+                       element={ <Navigate replace to="/tuiter/home"/> }/>
                 <Route path="/hello"
                        element={<HelloWorld/>}/>
                 <Route path="/tuiter/*"
